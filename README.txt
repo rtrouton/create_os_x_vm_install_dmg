@@ -63,5 +63,4 @@ https://github.com/MagerValp/Create-Recovery-Partition-Installer
 
 Unfortunately, that installer would be too large to include as part of First Boot Package Install’s payload (available space is around 350 MBs, the Recovery Partition installer is around 485 MBs.)
 
-=======
 In my testing, 10.7.x, 10.8.x, 10.10.x and 10.11.x disk images will successfully install a recovery partition into the VM.
