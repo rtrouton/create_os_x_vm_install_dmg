@@ -56,11 +56,12 @@ NOTES:
 
 1. A pre-generated First Boot Package Install.pkg is stored in the support directory as a zip file named First_Boot_Package_Install.zip. Unzip the file before running the script. This first boot package will automatically install all available Apple software updates following the OS installation, but provide no other customization.
 
-2. The 10.9.x disk images created with this method will not install a recovery partition into a VM. As a workaround, it appears that this can be addressed via using Per Olafsson’s Create Recovery Partition Installer to generate an installer that can install the missing recovery partition:
+2. The 10.9.x disk images created with this method will not install a recovery partition into a VM. As a workaround, it appears that this can be addressed via using Per Olofsson’s Create Recovery Partition Installer to generate an installer that can install the missing recovery partition:
 
 Create Recovery Partition Installer is available from here on GitHub:
 https://github.com/MagerValp/Create-Recovery-Partition-Installer
 
 Unfortunately, that installer would be too large to include as part of First Boot Package Install’s payload (available space is around 350 MBs, the Recovery Partition installer is around 485 MBs.)
 
+=======
 In my testing, 10.7.x, 10.8.x, 10.10.x and 10.11.x disk images will successfully install a recovery partition into the VM.
