@@ -4,7 +4,7 @@ Pre-requisites:
 
 1. This script and the associated support directory. This script and the support directory must be both stored in the same directory in order for the script to work properly.
 
-2. A 10.7.x, 10.8.x, 10.9.x, 10.10.x or 10.11.x installer from Apple's Mac App Store.
+2. A 10.7.x, 10.8.x, 10.9.x, 10.10.x, 10.11.x, or 10.12.x installer from Apple's Mac App Store.
 
 
 Running the script: 
@@ -47,7 +47,7 @@ What the script does:
 
 Once you have the customized DMG file created, you can choose it as an install disk image in VMware Fusion when creating virtual machines in VMware Fusion.
 
-This script has been tested with Apple's 10.7.5, 10.8.5, 10.9.5, 10.10.5, and 10.11.0 installers from the Mac App Store.
+This script has been tested with Apple's 10.7.5, 10.8.5, 10.9.5, 10.10.5, 10.11.6, and 10.12.0 installers from the Mac App Store.
 
 
 
@@ -63,4 +63,4 @@ https://github.com/MagerValp/Create-Recovery-Partition-Installer
 
 Unfortunately, that installer would be too large to include as part of First Boot Package Install’s payload (available space is around 350 MBs, the Recovery Partition installer is around 485 MBs.)
 
-In my testing, 10.7.x, 10.8.x, 10.10.x and 10.11.x disk images will successfully install a recovery partition into the VM.
+In my testing, 10.7.x, 10.8.x, 10.10.x, 10.11.x and 10.12.x disk images will successfully install a recovery partition into the VM.
