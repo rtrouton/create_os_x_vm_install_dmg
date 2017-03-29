@@ -1,3 +1,12 @@
+Please Read:
+------------
+
+macOS 10.12.4 introduced a change that prevents the addition of third-party packages to the OS installer. This script uses the addition of a third-party installer package, so unfortunately this script cannot be used to generate 10.12.4 or later OS installers.
+
+If you need to build a macOS 10.12.x VM, my recommendation at this point is to use the macOS 10.12.3 installer. Once the OS is installed, update to later versions of macOS Sierra as a post-installation task.
+
+
+
 This script prepares customized OS X installer disk images for use with VMware Fusion and ESXi. It's adapted from the prepare_iso script created by Tim Sutton: https://github.com/timsutton/osx-vm-templates/tree/master/prepare_iso
 
 Pre-requisites: 
